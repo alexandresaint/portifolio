@@ -18,6 +18,7 @@
   flex-wrap: wrap;
   padding: 15px;
   list-style-type: none;
+  border-radius: 10px;
 }
 
 .header-menu a{
