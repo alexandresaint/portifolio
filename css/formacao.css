@@ -1,56 +1,97 @@
-.formacao-container {
-display: grid;
-grid-template-columns: 1fr 2fr;
-padding: 40px 20px;
-max-width: 1200px;
-margin: 0 auto;
-gap: 100px;
-font-family: Arial, Helvetica, sans-serif;
+/* Fundo azul */
+#formacao.secao-azul {
+  background: var(--azul);
+  padding: 80px 20px;
 }
 
-.formacao {
-  background-color: #141414;
-}
-
-.formacao .subtitulo {
-  color: #000000;
-  font-size: 8rem;
-  word-break: break-all;
-  max-width: 5ch;
-  text-transform: uppercase;
-}
-
-.formacao-paragrafo {
-  font-size: 1.5rem;
-  max-width: 55ch;
-  margin-bottom: 60px;
-  color: #7e7e7e;
-  line-height: 1.4;
-}
-
-.faculdade-lista {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.faculdade {
-  display: flex;
-  flex-direction: column;
-  background: black;
-  padding: 20px;
-  flex: 1;
+/* Título lateral igual antes (gigante) */
+#formacao .subtitulo-lateral {
   color: white;
-  border-radius: 5px;
 }
 
-.faculdade-curso {
-  font-size: 1.3rem;
-  margin-bottom: 40px;
-  flex: 1;
+/* Responsividade do grid */
+@media (max-width: 900px) {
+  #formacao.secao-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #formacao .subtitulo-lateral {
+    margin-bottom: 20px;
+  }
+}
+
+/* Cards (mesmo estilo da Experiência) */
+.formacao-card {
+  background: #fafafa;                    /* COR ANTIGA — a mesma da Experiência */
+  border-radius: 14px;
+  padding: 25px 30px;
+  margin-bottom: 32px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.12);
+  color: #000;
+}
+
+/* Ano */
+.formacao-card .empresa-ano {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Título */
+.formacao-card .empresa-titulo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 6px 0;
+  color: #000;
+}
+
+/* Subtítulo */
+.formacao-card .empresa-subtitulo {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Parágrafo */
+.formacao-card .empresa-paragrafo {
+  font-size: 1rem;
+  color: #444;
+  margin: 10px 0 15px;
+  line-height: 1.6;
+}
+
+/* Listas */
+.formacao-card .empresa-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.formacao-card .empresa-habilidades li {
+  background: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+/* BADGES coloridas (Front-End) */
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 15px;
 }
 
-.faculdade span {
-  color: #7e7e7e;
+.badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: white;
+  font-weight: 600;
 }
+
+/* Cores */
+.badge.html { background: #E44D26; }
+.badge.css { background: #1572B6; }
+.badge.js { background: #F7DF1E; color: #000; }
+.badge.react { background: #61DAFB; color: #000; }

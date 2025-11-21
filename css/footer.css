@@ -1,54 +1,22 @@
-.rodape {
-    background: black;
+.footer {
+  background: #111;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
 }
 
-.rodape-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    position: relative;
+.footer p {
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
-.rodape-texto {
-    font-size: 1.5rem;
-    max-width: 55ch;
-    color: #7e7e7e;
-    line-height: 1.4;
+.footer a {
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.rodape-contato {
-    color: white;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-
-.rodape-direitos {
-    color: white;
-    text-align: center;
-}
-
-.rodape-contato a {
-    text-decoration: none;
-    color: white;
-}
-
-.rodape-container li {
-    margin-bottom: 20px;
-}
-
-.rodape-container::before{
-  content: "";
-  background: url(../img/detalhe_A.svg);
-  display: block;
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  top: -60px;
-  left: 0px;
+.footer a:hover {
+  color: var(--azul);
+  transition: 0.3s;
 }

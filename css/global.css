@@ -1,8 +1,32 @@
-h1,h2,h3,h4,p {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azul: #004AAD;
+  --cinza-claro: #F5F5F5;
+  --cinza-medio: #A6A6A6;
+  --preto: #1A1A1A;
+}
+
+body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: var(--preto);
+  line-height: 1.6;
+}
+
+h1, h2, h3, p {
+  margin: 0;
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

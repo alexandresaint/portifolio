@@ -1,0 +1,42 @@
+.grid-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card-projeto {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #eee;
+  transition: 0.3s;
+  cursor: pointer;
+  background: white;
+}
+
+.card-projeto:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.12);
+}
+
+.card-projeto img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.overlay {
+  padding: 15px;
+  background: var(--azul);
+  color: white;
+}
+
+.overlay h3 {
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.overlay p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}

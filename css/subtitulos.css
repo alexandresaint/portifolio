@@ -1,0 +1,35 @@
+.subtitulo-lateral {
+  font-size: 8rem;
+  color: var(--azul);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.85;
+  word-break: break-word;
+}
+
+
+.subtitulo-azul {
+  color: #ffffff;
+}
+
+
+@media (max-width: 1200px) {
+  .subtitulo-lateral {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .subtitulo-lateral {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .subtitulo-lateral {
+    font-size: 2.8rem;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+}

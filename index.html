@@ -1,108 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio – Alexandre José</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portifolio Alexandre</title>
-  <link rel="stylesheet" href="./css/style.css">
-</head>
+  <body>
+    <header class="header">
+      <div class="container-header">
+        <h1>Alexandre José</h1>
+        <nav>
+          <ul class="header-menu">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <header class="header">
-    <h1>Alexandre José</h1>
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formações</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="introducao">
-    <img src="./img/perfil-6.jpeg" alt="perfil">
-    <div class="introducao-text">
-      <h1>Desenvolvedor Front-End & UX/UI Design</h1>
-      <p>Localizado em Recife - PE</p>
-    </div>
-  </main>
+    <section class="introducao">
+      <img src="./img/perfil.jpg" alt="Foto de Alexandre" />
 
-  <section class="exp" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
-    <div>
-      <p class="experiencia-paragrafo">Desenvolvo pequenos projetos como o Robocraft utilizando apenas
-        <strong>HTML, CSS e JavaScript.</strong> Para aplicativos web, como a rede social
-        Dogs, eu trabalhei no <strong>UX e UI</strong> Design do projeto
+      <div class="introducao-card">
+        <h2 class="nome-introducao">Alexandre José</h2>
+        <h1 class="cargo-introducao">
+          Designer Gráfico / Desenvolvedor Front-End
+        </h1>
+        <p>Recife • Pernambuco</p>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao-grid">
+      <h2 class="subtitulo-lateral">Sobre</h2>
+      <div class="conteudo-lateral">
+        <p>
+          Sou <strong>Designer Gráfico</strong> com experiência na criação de
+          identidades visuais, artes digitais e posts para redes sociais.
+          Trabalho como <strong>freelancer</strong>, desenvolvendo materiais
+          para pequenas empresas, profissionais autônomos e agências, sempre
+          buscando unir estética, clareza e propósito na comunicação visual.
+          <br /><br />
+          Também estou me especializando como
+          <strong>Desenvolvedor Front-End</strong>, estudando HTML, CSS,
+          JavaScript e React. Essa formação complementa meu trabalho criativo,
+          permitindo que eu una <strong>design</strong> e
+          <strong>implementação</strong> para construir interfaces modernas,
+          funcionais e intuitivas. <br /><br />
+          Minha trajetória inclui oito anos na Comunidade Católica Shalom, onde
+          produzi materiais visuais, atuei na comunicação e participei da
+          organização de projetos e eventos. Hoje, sigo aprimorando minhas
+          habilidades para oferecer soluções completas no digital.
+        </p>
+      </div>
+    </section>
+
+    <section id="experiencia" class="secao-grid">
+      <h2 class="subtitulo-lateral">Experiência</h2>
+      <div class="conteudo-lateral">
+        <div class="empresa">
+          <span class="empresa-ano">2025</span>
+          <h3 class="empresa-titulo">Freelancer</h3>
+          <span class="empresa-subtitulo">Designer Gráfico</span>
+          <p class="empresa-paragrafo">
+            Criação de identidades visuais, posts para redes sociais, campanhas
+            e materiais digitais institucionais. Atendimento direto ao cliente,
+            desde briefing até a entrega final.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <span class="empresa-ano">2025</span>
+          <h3 class="empresa-titulo">Lilium MKT</h3>
+          <span class="empresa-subtitulo">Designer Gráfico • Freelancer</span>
+          <p class="empresa-paragrafo">
+            Desenvolvimento de artes sob demanda, posts e campanhas para redes
+            sociais, seguindo a identidade visual da marca. Colaboração com a
+            equipe de marketing em peças estratégicas.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+
+        <div class="empresa">
+          <span class="empresa-ano">2017–2025</span>
+          <h3 class="empresa-titulo">Comunidade Católica Shalom</h3>
+          <span class="empresa-subtitulo">Missionário • Designer Gráfico</span>
+          <p class="empresa-paragrafo">
+            Produção de materiais gráficos internos, apoio na comunicação
+            visual, criação de identidades para eventos e suporte a projetos
+            comunitários, desenvolvendo habilidades de liderança, trabalho em
+            equipe e organização.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Design</li>
+            <li>Comunicação</li>
+            <li>Gestão</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="secao-grid secao-azul">
+      <h2 class="subtitulo-lateral subtitulo-azul">Formação</h2>
+
+      <div class="conteudo-lateral">
+        <div class="formacao-card">
+          <span class="empresa-ano">2025 — 2026</span>
+          <h3 class="empresa-titulo">Desenvolvimento Front-End</h3>
+          <span class="empresa-subtitulo">Softex Pernambuco</span>
+
+          <p class="empresa-paragrafo">
+            Formação focada em desenvolvimento de interfaces modernas e
+            responsivas, utilizando tecnologias atuais do mercado e boas
+            práticas de programação.
+          </p>
+
+          <ul class="tech-badges">
+            <li class="badge html">HTML</li>
+            <li class="badge css">CSS</li>
+            <li class="badge js">JavaScript</li>
+            <li class="badge react">React</li>
+          </ul>
+        </div>
+
+        <div class="formacao-card">
+          <span class="empresa-ano">Atual</span>
+          <h3 class="empresa-titulo">Cursos Online</h3>
+          <span class="empresa-subtitulo">Design Gráfico e UI/UX</span>
+
+          <p class="empresa-paragrafo">
+            Estudo contínuo em Design, UX/UI e criação de conteúdo digital
+            através de plataformas como YouTube e cursos independentes.
+          </p>
+
+          <ul class="empresa-habilidades">
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Design Digital</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="secao-grid">
+      <h2 class="subtitulo-lateral">Projetos</h2>
+      <div class="conteudo-lateral">
+        <div class="grid-projetos">
+          <a href="./projetos/projeto1.html" class="card-projeto">
+            <img src="./img/capa1.jpg" alt="Projeto 1" />
+            <div class="overlay">
+              <h3>Identidade Visual – 2024</h3>
+              <p>Design Gráfico / Social Media — Lilium MKT</p>
+            </div>
+          </a>
+
+          <a href="./projetos/projeto2.html" class="card-projeto">
+            <img src="./img/capa2.jpg" alt="Projeto 2" />
+            <div class="overlay">
+              <h3>Campanha Redes Sociais</h3>
+              <p>Design Gráfico / Social Media — Cliente X</p>
+            </div>
+          </a>
+
+          <a href="./projetos/projeto3.html" class="card-projeto">
+            <img src="./img/capa3.jpg" alt="Projeto 3" />
+            <div class="overlay">
+              <h3>Post Institucional</h3>
+              <p>Design Gráfico — Shalom</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contato">
+      <p>📧 xandesantos85@gmail.com</p>
+      <p>📱 (85) 98544-3816</p>
+      <p>
+        <a href="https://wa.me/5585985443816" target="_blank">WhatsApp</a> •
+        <a href="https://www.behance.net/alexandreds" target="_blank"
+          >Behance</a
+        >
+        •
+        <a href="https://www.instagram.com/alexandresh_" target="_blank"
+          >Instagram</a
+        >
       </p>
-      <div class="empresa">
-        <span class="empresa-ano">2017</span>
-        <h3 class="empresa-titulo">Robocraft</h3>
-        <span class="empresa-titulo">Desenvolvedor Junior</span>
-        <p class="empresa-paragrafo">No projeto Robocraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-        <ul class="empresa-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>UX Design</li>
-          <li>UI Design</li>
-        </ul>
-      </div>
-
-      <div class="empresa">
-        <span class="empresa-ano">2017</span>
-        <h3 class="empresa-titulo">Robocraft</h3>
-        <span class="empresa-titulo">Desenvolvedor Junior</span>
-        <p class="empresa-paragrafo">No projeto Robocraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site. Além disso, também prestei consultoria no Design.</p>
-        <ul class="empresa-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>UX Design</li>
-          <li>UI Design</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section id="formacao" class="formacao" aria-label="Formação">
-    <div class="formacao-container">
-      <h2 class="subtitulo">Formação</h2>
-      <div>
-        <p class="formacao-paragrafo">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <ul class="faculdade-lista">
-          <li class="faculdade">
-            <span>Tecnólogo</span>
-            <h3 class="faculdade-curso">Design Digital</h3>
-            <span class="faculdade-instituicao">UFPE</span>
-          </li>
-
-          <li class="faculdade">
-            <span>Tecnólogo</span>
-            <h3 class="faculdade-curso">Design Digital</h3>
-            <span class="faculdade-instituicao">UFPE</span>
-          </li>
-
-          <li class="faculdade">
-            <span>Tecnólogo</span>
-            <h3 class="faculdade-curso">Design Digital</h3>
-            <span class="faculdade-instituicao">UFPE</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <footer class="rodape" id="contato" aria-Label="Contato">
-    <div class="rodape-container">
-      <p class="rodape-texto">Estou disponível para novos projetos no momento.
-        Entre em contato comigo e marcamos uma
-        conversa</p>
-        <ul>
-          <li class="rodape-contato">xandesantos85@gmail.com</li>
-          <li class="rodape-contato">+55 (85)98544-3816</li>
-          <li class="rodape-contato"><a href="">Instagram: @alexandesh_</a></li>
-        </ul>
-        <p class="rodape-direitos">Alexandre. Alguns direitos reservados</p>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>

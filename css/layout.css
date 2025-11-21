@@ -1,0 +1,33 @@
+.secao-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  gap: 60px;
+}
+
+.conteudo-lateral {
+  font-size: 1.3rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.secao-azul {
+  background: var(--azul);
+  color: #ffffff;
+}
+
+.secao-azul .conteudo-lateral {
+  color: #ffffff;
+}
+
+
+@media (max-width: 900px) {
+  .secao-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 60px 20px;
+  }
+}
